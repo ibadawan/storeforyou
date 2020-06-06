@@ -1,0 +1,404 @@
+.storename{
+    color: white;
+    background-color: #2c494d;
+    font-family: cursive;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.navbar-brand{
+    color: green !important;
+    font-size: 3em !important; 
+}
+.slider{
+    width: 
+}
+
+.feature0{
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #2c494d;
+    font-family: cursive;
+    text-align: center;
+
+}
+.fa-shopping-cart{
+    color: #2c494d;
+    font-size: 2em;
+    
+}
+
+.feature{
+    display: flex;
+    padding-top: 50px ;
+    padding-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.category{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#2c494d;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    flex-wrap: wrap;
+}
+.catitem{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+
+.catitem > h4{
+    margin-top: 160px;
+}
+
+.divider-image{
+    width: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+.mission{
+    text-align: center;
+    font-weight: bolder;
+    color: lightslategrey;
+}
+
+.box{
+    
+width: 200px;
+height: 200px;
+text-align: center; 
+background-color: lightblue;
+color: #007bff;
+box-shadow:box-shadow: 0 0 80px -10px black;
+}
+
+.catshirtback{
+    background-image: url("images/tshirt3.jpg");
+}
+.catshortback{
+    background-image: url("images/shortback.jpg");
+    background-position: center;
+}
+
+.catshoesback{
+    background-image: url("images/shoesback.jpg");
+    
+}
+
+.catbagback{
+    background-image: url("images/bagback.jpg");
+    background-position: center;
+}
+
+.catwatchback{
+    background-image: url("images/wacthback.jpg");
+    background-position: center;
+}
+.catscarfback{
+    background-image: url("images/scarfback.jpg");
+    background-position: center;
+}
+
+.margintext{
+    margin-top: 160px;
+}
+
+.linkcolor{
+
+    color: blue;
+    background-color: lightblue;
+    opacity: 0.6;
+}
+
+
+.tshirts{
+    background-color: #f8f9fa;
+    color:#2c494d;
+    font-family: cursive;
+    text-align: center ;
+}
+
+.man{
+    background-color: #2c494d;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+
+.titems{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.sitem{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.shitem{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.shorts{
+    background-color: #f8f9fa;
+    color: #2c494d;
+    font-family: cursive;
+    padding-top: 100px;
+    text-align: center;
+}
+.shoes{
+    padding-top: 100px;
+    background-color: #f8f9fa;
+    color: #2c494d;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+.commitment{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2c494d;
+    color: white;
+   font-family: cursive;
+}
+
+.quote{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #6ca7b6;
+    color: white;
+}
+.commitem{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #c9d9e8;
+}
+
+.quote1{
+    text-align: center;
+    color:  black;
+    padding-top: 30px;
+    padding-bottom:   30px;
+}
+#aboutmain{
+    background-color: #2c494d;
+}
+
+.about > img{
+    width: 100%;
+    height: 350px;
+}
+
+.about > p {
+    padding-top: 50px;
+    text-align: center;
+    color: #56b8e3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+
+#maincontactus{
+    background-color: #E2E3DE;
+}
+
+.contactus > img {
+    width: 100%;
+}
+
+.contitem{
+    color: #2c494d;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: absolute;
+    border-radius: 8px;
+    height: 450px;
+    width: 400px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 80px -10px black;
+    overflow: hidden;
+}
+
+.card-blur {
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 1px);
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 40px;
+}
+
+.card:hover .card-blur {
+    opacity: 0.4;
+}
+
+
+.footer{
+
+    padding-top: 30px;
+    padding-bottom: 150px;
+    color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.dis{
+    padding-top: 60px;
+    align-content: center;
+
+}
+
+.cartt-margin{
+    margin-top: 100px;
+}
+
+.footer-end{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+.fa-facebook{
+
+   color:  #1194f5 ;
+
+}
+
+.fa-instagram{
+    color: #f85149;
+}
+
+.fa-twitter{
+
+    color: #1da1f2;
+}
+
+
+.pages{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+    text-align: center;
+   
+}
+
+
+.termandcondition{
+
+    text-align: center;
+    color: white ;
+    background-color:#2c494d ;
+}
+
+.warranty{
+
+    
+    text-align: center;
+    color: white ;
+    background-color:#2c494d ;
+
+}
+
+
+.return{
+    text-align: center;
+    color: white ;
+    background-color:#2c494d ;
+
+}
+
+.refund{
+    text-align: center;
+    color: white ;
+    background-color:#2c494d ;
+
+}
+
+.privacy{
+
+    text-align: center;
+    color: white ;
+    background-color:#2c494d ;
+
+}
+
+
+
+.aboutus, .tracking, .socialnet, .coustomersrvice{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+.address, .phone, .email, .socialmedia{
+
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   .aboutus, .tracking, .socialnet, .coustomersrvice {
+      width: 100%;
+    }
+  }
+
+
+  @media screen and (max-width:600px){
+
+    .qua, .del, .con{
+        width:100%
+    }
+  }
+
+
+  @media screen and (max-width:600px){
+
+    .address, .phone, .email, .socialmedia{
+        width:100%
+    }
+  }
